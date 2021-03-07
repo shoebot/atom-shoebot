@@ -1,0 +1,20 @@
+'name': 'Shoebot'
+'scopeName': 'source.python.shoebot'
+'fileTypes': [ 'bot' ]
+'patterns': [
+  {
+      'include': 'source.python'
+  }
+  {
+    'match': '\\b(RGB|HSB|CORNER|CENTER|MOVETO|RMOVETO|LINETO|RLINETO|CURVETO|RCURVETO|ARC|ELLIPSE|CLOSE|LEFT|RIGHT|NORMAL|FORTYFIVE|WIDTH|HEIGHT)\\b'
+    'name': 'constant.language.shoebot'
+  }
+  {
+    'match': '\\b(BezierPath)\\b'
+    'name': 'support.class.shoebot'
+  }
+  {
+    'match': '\\b(rect|ellipse)\\b'
+    'name': 'support.function.shoebot'
+  }
+]
