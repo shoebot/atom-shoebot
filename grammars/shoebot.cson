@@ -6,15 +6,15 @@
       'include': 'source.python'
   }
   {
-    'match': '\\b(RGB|HSB|CORNER|CENTER|MOVETO|RMOVETO|LINETO|RLINETO|CURVETO|RCURVETO|ARC|ELLIPSE|CLOSE|LEFT|RIGHT|NORMAL|FORTYFIVE|WIDTH|HEIGHT)\\b'
+    'match': '\\b(RGB|HSB|CORNER|CORNERS|CENTER|MOVETO|RMOVETO|LINETO|RLINETO|CURVETO|RCURVETO|ARC|ELLIPSE|CLOSE|LEFT|RIGHT|JUSTIFY|NORMAL|FORTYFIVE|WIDTH|HEIGHT|FRAME|PAGENUM|MOUSEX|MOUSEY|BOOLEAN|NUMBER|TEXT|BUTTON|inch|cm|mm)\\b'
     'name': 'constant.language.shoebot'
   }
   {
-    'match': '\\b(BezierPath)\\b'
+    'match': '\\b(BezierPath,ClippingPath,EndClip,Color,Text,Variable,Image,ShoebotError)\\b'
     'name': 'support.class.shoebot'
   }
   {
-    'match': '\\b(rect|ellipse)\\b'
+    'match': '\\b(rect|rectmode|ellipse|oval|circle|line|newpath|moveto|lineto|curveto|arcto|closepath|endpath|drawpath|relmoveto|rellineto|relcurveto|autoclosepath|image|imagesize|drawimage|translate|rotate|scale|skew|push|pop|reset|colormode|colorrange|fill|nofill|stroke|nostroke|strokewidth|background|font|fontsize|text|textpath|textmetrics|textwidth|textheight|lineheight|align|var|color|random|choice|grid|files|snapshot|show|ximport|size|speed|key|keycode|keydown|mousedown|)\\b'
     'name': 'support.function.shoebot'
   }
 ]
