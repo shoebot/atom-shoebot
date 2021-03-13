@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Run Sketch'
+      'command': 'shoebot:run'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Shoebot'
+      'submenu': [
+        {
+          'label': 'Run'
+          'command': 'shoebot:run'
+        }
+      ]
+    ]
+  }
+]

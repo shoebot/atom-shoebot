@@ -6,7 +6,7 @@ describe "Shoebot grammar", ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage("language-shoebot")
+      atom.packages.activatePackage("shoebot")
 
     runs ->
       grammar = atom.syntax.grammarForScopeName("source.shoebot")
