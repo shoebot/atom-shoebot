@@ -2,7 +2,7 @@
 fs = require 'fs'
 path = require 'path'
 psTree = require 'ps-tree'
-ShoebotView = require './shoebot-view'
+ConsoleView = require './console-view'
 
 module.exports = Shoebot =
   config:
@@ -45,8 +45,8 @@ module.exports = Shoebot =
     exit = (code) ->
       console.log("Error code: #{code}")
     if !@view
-      @view = new ShoebotView
-      atom.workspace.addBottomPanel(item: @view)
+      @view = new ConsoleView
+      @view.initUI()
     if @process
       psTree @process.process.pid, (err, children) =>
         for child in children
@@ -60,7 +60,7 @@ module.exports = Shoebot =
     @buildSketch()
 
   display: (line) ->
-    @view.log(line)
+    @view.logText(line)
 
   closeSketch: ->
     if @view
