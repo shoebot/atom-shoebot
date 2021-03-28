@@ -4,7 +4,11 @@
     {
       'label': 'Run Sketch'
       'command': 'shoebot:run'
-    }
+    },
+    {
+      'label': 'Run and output to file...'
+      'command': 'shoebot:export'
+    },
   ]
 'menu': [
   {
@@ -15,7 +19,11 @@
         {
           'label': 'Run'
           'command': 'shoebot:run'
-        }
+        },
+        {
+          'label': 'Run and output to file...'
+          'command': 'shoebot:export'
+        },
       ]
     ]
   }

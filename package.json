@@ -13,7 +13,8 @@
     "atom": ">0.187.0"
   },
   "activationCommands": {
-    "atom-workspace": "shoebot:run"
+    "atom-workspace": "shoebot:run",
+    "atom-workspace": "shoebot:export"
   },
   "dependencies": {
     "ps-tree": "^1.0.0",

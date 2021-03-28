@@ -10,5 +10,7 @@
 'atom-text-editor':
   'ctrl-alt-r': 'shoebot:run'
   'cmd-alt-r': 'shoebot:run'
+  'ctrl-alt-e': 'shoebot:export'
+  'cmd-alt-e': 'shoebot:export'
   'ctrl-alt-c': 'shoebot:close'
   'cmd-alt-c': 'shoebot:close'
