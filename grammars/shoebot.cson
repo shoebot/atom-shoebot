@@ -10,11 +10,11 @@
     'name': 'constant.language.shoebot'
   }
   {
-    'match': '\\b(BezierPath,ClippingPath,EndClip,Color,Text,Variable,Image,ShoebotError)\\b'
+    'match': '\\b(BezierPath,ClippingPath,EndClip,Color,Text,Variable,Image)\\b'
     'name': 'support.class.shoebot'
   }
   {
-    'match': '\\b(rect|rectmode|ellipse|oval|circle|line|newpath|moveto|lineto|curveto|arcto|closepath|endpath|drawpath|relmoveto|rellineto|relcurveto|autoclosepath|image|imagesize|drawimage|translate|rotate|scale|skew|push|pop|reset|colormode|colorrange|fill|nofill|stroke|nostroke|strokewidth|background|font|fontsize|text|textpath|textmetrics|textwidth|textheight|lineheight|align|var|color|random|choice|grid|files|snapshot|show|ximport|size|speed|key|keycode|keydown|mousedown|)\\b'
+    'match': '\\b(rect|rectmode|ellipse|oval|circle|line|newpath|moveto|lineto|curveto|arcto|closepath|endpath|drawpath|relmoveto|rellineto|relcurveto|autoclosepath|image|imagesize|drawimage|translate|rotate|scale|skew|push|pop|reset|colormode|colorrange|fill|nofill|stroke|nostroke|strokewidth|background|font|fontsize|text|textpath|textmetrics|textwidth|textheight|lineheight|align|var|color|random|choice|grid|files|snapshot|show|ximport|size|speed|key|keycode|keydown|mousedown)\\b'
     'name': 'support.function.shoebot'
   }
 ]
