@@ -1,13 +1,13 @@
 {
   "name": "shoebot",
   "main": "./lib/shoebot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Helpers and highlighting for Shoebot scripts",
   "keywords": [
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/shoebot",
+  "repository": "https://github.com/shoebot/atom-shoebot",
   "license": "GPL",
   "engines": {
     "atom": ">0.187.0"
