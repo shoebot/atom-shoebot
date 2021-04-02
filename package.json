@@ -8,7 +8,7 @@
     "grammar"
   ],
   "repository": "https://github.com/atom/shoebot",
-  "license": "MIT",
+  "license": "GPL",
   "engines": {
     "atom": ">0.187.0"
   },
