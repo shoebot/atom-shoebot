@@ -6,8 +6,12 @@
       'command': 'shoebot:run'
     },
     {
-      'label': 'Run and output to file...'
+      'label': 'Export image...'
       'command': 'shoebot:export'
+    },
+    {
+      'label': 'Export video...'
+      'command': 'shoebot:exportvideo'
     },
   ]
 'menu': [
@@ -21,8 +25,12 @@
           'command': 'shoebot:run'
         },
         {
-          'label': 'Run and output to file...'
+          'label': 'Export image...'
           'command': 'shoebot:export'
+        },
+        {
+          'label': 'Export video...'
+          'command': 'shoebot:exportvideo'
         },
       ]
     ]
